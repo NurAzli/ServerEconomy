@@ -11,12 +11,12 @@ use pocketmine\utils\TextFormat;
 
 class ServerEconomy extends PluginBase implements Listener {
 
-    public function onEnable() {
+    public function onEnable(): void {
         $this->getLogger()->info("ServerEconomy has been enabled.");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
-    public function onDisable() {
+    public function onDisable(): void {
         $this->getLogger()->info("ServerEconomy has been disabled.");
     }
 
