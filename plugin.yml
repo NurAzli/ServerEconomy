@@ -1,0 +1,15 @@
+name: ServerEconomy
+version: 1.0.0
+api: 5.0.0
+author: NurAzliYT
+description: Server economy plugin with player money management.
+main: NurAzliYT\ServerEconomy\ServerEconomy
+commands:
+  balance:
+    description: Check your balance
+    usage: /balance
+  pay:
+    description: Pay money to another player
+    usage: /pay <player> <amount>
+depends:
+  - ServerEconomyPlayerMoney
