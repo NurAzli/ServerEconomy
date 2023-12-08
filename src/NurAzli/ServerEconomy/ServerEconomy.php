@@ -1,6 +1,6 @@
 <?php
 
-namespace NurAzliYT\ServerEconomy;
+namespace NurAzli\ServerEconomy;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
